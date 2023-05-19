@@ -1,0 +1,18 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "type": "npm",
+      "script": "auth",
+      "problemMatcher": [],
+      "label": "auth-with-npm",
+      "detail": "unset AWS_VAULT"
+    },
+    {
+      "label": "auth-with-shell",
+      "type": "shell",
+      "command": "aws-vault exec home-serverless-admin",
+      "problemMatcher": []
+    }
+  ]
+}

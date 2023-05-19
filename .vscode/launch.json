@@ -1,0 +1,27 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "type": "node",
+        "request": "launch",
+        "name": "Launch Program with prelaunch shell task",
+        "program": "debugme.js",
+        "preLaunchTask": "auth-with-shell",
+      },
+      {
+        "type": "node",
+        "request": "launch",
+        "name": "Launch Program with prelaunch npm task",
+        "program": "debugme.js",
+        "preLaunchTask": "auth-with-npm",
+      },
+      {
+        "type": "node",
+        "request": "launch",
+        "name": "Launch Program",
+        "program": "debugme.js",
+      }
+    ],
+  }
+  
+

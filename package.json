@@ -1,0 +1,14 @@
+{
+  "name": "debugme",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "auth": "aws-vault exec home-serverless-admin node debugme.js",
+    "unauth": "unset AWS_VAULT"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
